@@ -1,4 +1,4 @@
-既然在示例3中,我们已经得到了一些聚合结果,何不更进一步把需要告警的聚合结果通过邮件形式发出来呢?
+既然在[示例3](https://github.com/childe/hangout-filter-statmetric)中,我们已经得到了一些聚合结果,何不更进一步把需要告警的聚合结果通过邮件形式发出来呢?
 
 我们就来写一个mail output plugin.  output plugin是最简单的, 只需要继承BaseOutput并实现一个emit方法就好了.
 
